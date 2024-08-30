@@ -9,8 +9,9 @@ Develop a robust predictive model to accurately forecast Yes Bank's stock closin
 
 ## Challenges:
 
-**Multicollinearity:** Handling high correlations between independent variables to improve model interpretation and accuracy.
-**Significant Events:** Accurately capturing the effects of events that influence stock prices.
+**1. Multicollinearity:** Handling high correlations between independent variables to improve model interpretation and accuracy.
+
+**2. Significant Events:** Accurately capturing the effects of events that influence stock prices.
 
 ## Performance Goal:
 Achieve high accuracy, with the K-Nearest Neighbors (KNN) Regression model's 99% accuracy as a benchmark, to provide valuable insights for stakeholders and support informed investment decisions.
