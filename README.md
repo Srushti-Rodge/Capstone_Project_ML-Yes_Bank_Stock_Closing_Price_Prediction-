@@ -19,6 +19,18 @@ Achieve high accuracy, with the K-Nearest Neighbors (KNN) Regression model's 99%
 ## Overall Goal:
 Create a reliable model that enhances understanding of Yes Bank's stock performance and aids in making well-informed investment choices.
 
+## Conclusion:
+**1.Stock Price Decline:** A significant drop in Yes Bank's stock prices followed the Rana Kapoor fraud exposure in 2018.
+**2.Data Quality:** The dataset was exceptionally clean with no missing values or duplicates, reducing the need for extensive wrangling.
+**3.Outlier Management:** Outliers were effectively mitigated using log transformation, which also corrected positive skewness in the data.
+**4.Correlations:** Strong positive correlations between independent variables (Open, High, Low) and the dependent variable (Close) suggested high predictive potential.
+**5.Multicollinearity:** While multicollinearity was present, no feature removal was necessary due to the dataset's limited size.
+**6.Model Selection:** Ridge Regression, optimized with GridSearchCV, was the top performer, achieving an RMSE of 8.3824 and an R² score of 0.9938.
+**7.Feature Impact:** 'High' and 'Low' features had positive weights, while 'Open' had a negative weight, influencing predictions.
+**8.Model Reliability**: The model met all key assumptions, confirming its reliability for predicting Yes Bank's stock prices.
+
+This analysis underscores the significant impact of financial events on stock prices and the importance of meticulous data preparation and model selection for accurate predictions.
+
 
 
 
